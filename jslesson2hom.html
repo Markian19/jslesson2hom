@@ -13,34 +13,32 @@
     // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
     // (в першу, другу, третю или четверту частину години).
 
-    // let time = prompt('enter number');
-    // if (time<=14){
-    //     console.log("first part")
-    // }
-    // else if (time<=30){
-    //         console.log("second part")
-    //     }
-    //
-    //
-    // else if (time<=45){
-    //         console.log("thirdth part")
-    //     }
-    //
-    //
-    // else if (time<=59){
-    //         console.log("fourth part")
-    //     }
+    let time = +prompt('enter number');
+    if (time >=0 && <= 14){
+        console.log("first part")
+        }
+    else if (time >=15 && <=29){
+            console.log("second part")
+        }
+
+    else if (time >=30 && <=44){
+            console.log("thirdth part")
+        }
+
+    else if (time >=45 && <=59){
+            console.log("fourth part")
+        }
 
     // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 
-    // let day = prompt('enter day');
-    // if (day<=10){
+    // let day = +prompt('enter day');
+    // if (day >=1 && <=10){
     //     console.log('first decada')
     // }
-    // else if (day<=20){
+    // else if (day>=11 && <=20){
     //     console.log('second decada')
     // }
-    // else if(day<=30){
+    // else if(day>=21 && <=30){
     //     console.log('tirdth decada')
     // }
 
@@ -100,12 +98,12 @@
 //     - Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
 // Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
 
-    let js = prompt('enter official name of JS');
-    if("js"==="ECMAScript"){
-        console.log("Very well")
-    }else {
-        console.log("no ideas? ECMAScript")
-    }
+    // let js = prompt('enter official name of JS');
+    // if("js"==="ECMAScript"){
+    //     console.log("Very well")
+    // }else {
+    //     console.log("no ideas? ECMAScript")
+    // }
 </script>
 
 </body>
